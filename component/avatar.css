@@ -1,0 +1,86 @@
+#avatar-component{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar{
+    margin: 2rem;
+    height: fit-content;
+}
+
+/* Common for all avatar component  */
+
+.avatar-type{ 
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Sizea Avatar  */
+.xlg-avatar{
+    height: 12rem;
+    width: 12rem;
+}
+
+.lg-avatar{
+    height: 10rem;
+    width: 10rem;
+}
+
+.md-avatar{
+    height: 8rem;
+    width: 8rem;
+}
+
+.sm-avatar{
+    height: 5rem;
+    width: 5rem;
+}
+
+.xsm-avatar{
+    height: 3rem;
+    width: 3rem;
+}
+
+.avatar-cir-img{
+    border-radius: 50%;
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+}
+
+/* Square Avatar  */
+
+.sq-xlg-avatar{
+    height: 12rem;
+    width: 12rem;
+}
+
+.sq-lg-avatar{
+    height: 10rem;
+    width: 10rem;
+}
+
+.sq-md-avatar{
+    height: 8rem;
+    width: 8rem;
+}
+
+.sq-sm-avatar{
+    height: 5rem;
+    width: 5rem;
+}
+
+.sq-xsm-avatar{
+    height: 3rem;
+    width: 3rem;
+}
+
+.avatar-sqr-img{
+    border-radius: 5%;
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+}
+
