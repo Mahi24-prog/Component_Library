@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Component Liabrary</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebar-active">
+            <div class="sidebar-header">
+                <h1>Select Component</h1>
+            </div>
+            <div class="sidebar-body">
+                <div class="sidebar-buttons-wrapper">
+
+                    <button class="sidebar-btn active-side-btn" onclick="showComponent(event,'avatar-component')"><i
+                            class="fas fa-user-circle sidebar-icon"></i>Avatar</button>
+                    <button class="sidebar-btn" onclick="showComponent(event,'alert-component')"><i
+                            class="far fa-bell sidebar-icon"></i>Alert</button>
+                    <button class="sidebar-btn" onclick="showComponent(event,'badge-component')"><i
+                            class="fas fa-medal sidebar-icon"></i>Badge</button>
+                    <button class="sidebar-btn" onclick="showComponent(event,'button-component')"><i
+                            class="fas fa-toggle-on sidebar-icon"></i>Button</button>
+                    <button class="sidebar-btn " onclick="showComponent(event,'card-component')"><i
+                            class="far fa-address-card sidebar-icon"></i>Card</button>
+                    <button class="sidebar-btn" onclick="showComponent(event,'image-component')"><i
+                            class="fas fa-image sidebar-icon"></i>Image</button>
+                    <button class="sidebar-btn" onclick="showComponent(event,'input-component')"><i
+                            class="far fa-keyboard sidebar-icon"></i>Input</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="navbar">
+                <button class="toggle-btn lg-h"><i class="fas fa-bars"></i></button>
+                <h1 class="nav-header lg-h">Component Liabrary&nbsp;&nbsp;<i class="fas fa-palette"></i></h1>
+            </div>
+
+            <!-- Avatar Component  -->
+            <div id="avatar-component" class="component active-component">
+                <h1>Avatar</h1>
+            </div>
+
+            <!-- Alert Component  -->
+            <div class="component" id="alert-component">
+               <h1>Alert</h1>
+            </div>
+
+            <!-- Badge Component  -->
+            <div id="badge-component" class="component">
+                <h1>Badge</h1>
+            </div>
+
+
+            <!-- Button Component  -->
+            <div id="button-component" class="component">
+                <h1>Button</h1>
+            </div>
+
+            <!-- Card Component  -->
+            <div id="card-component" class="component">
+               <h1>Card</h1>
+            </div>
+
+            <!-- Image Component  -->
+            <div id="image-component" class="component">
+                <h1>Image</h1>
+            </div>
+
+            <!-- Input Component  -->
+            <div id="input-component" class="component">
+                <h1>Input</h1>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <script src="./sidebar.js"></script>
+</body>
+
+</html>
