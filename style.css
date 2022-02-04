@@ -1,0 +1,277 @@
+@import url("./component/avatar.css");
+@import url("./component/alert.css");
+@import url("./component/badge.css");
+@import url("./component/card.css");
+@import url("./component/button.css");
+@import url("./component/image.css");
+@import url("./component/input.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --primary-color:#042331;
+    --secondary-color:#063146;
+    --background-color: #063146;
+}
+
+/* Heading Typography  */
+.lg-h{
+    font-size: 3.5rem;
+    margin: 1rem 0;
+}
+
+.md-h{
+    font-size: 2.8rem;
+    margin: 1.5rem 0;
+}
+
+.sm-h{
+    font-size: 2.3rem;
+    margin: 1rem 0;
+}
+
+.xlg-text{
+    font-size: 3rem;
+    margin: 0.5rem;
+}
+
+.lg-text{
+    font-size: 2.5rem;
+    margin: 0.5rem;
+}
+
+.md-text{
+    font-size: 1.8rem;
+    margin: 1rem;
+}
+
+.sm-text{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+.xsm-text{
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+.gray-text{
+    color: #7f8c8d;
+}
+
+html{
+    font-size: 62.5%;  
+}
+
+/* Common class  */
+
+.line{
+    margin: 2rem 0;
+    color: #8395a7;
+    font-size: 2px;
+}
+
+.container{
+    display: flex;
+    position: relative;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 0rem;
+    overflow: hidden;
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: var(--primary-color);
+    transition: 0.5s;
+}
+
+.sidebar-active{
+    width: 25rem;
+}
+
+.sidebar .sidebar-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    background-color: var(--background-color);
+    padding: 1rem;
+    height: 10%;
+}
+
+.sidebar .sidebar-body{
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar .sidebar-body .sidebar-buttons-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.sidebar .sidebar-body .sidebar-buttons-wrapper .sidebar-btn{
+    font-size: 2rem;
+    border: none;
+    padding: 1rem;
+    color: #eee;
+    background-color: var(--primary-color);
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    transition: .4s;
+    margin: 0.2rem rem;
+}
+
+.sidebar .sidebar-body .sidebar-buttons-wrapper .sidebar-btn .sidebar-icon{
+    margin-right: 1rem;
+}
+
+.sidebar .sidebar-body .sidebar-buttons-wrapper .sidebar-btn:focus{
+    padding-left: 5rem;
+    background-color: var(--background-color);
+    border-left: 5px solid #d9534f;
+    outline: none;
+}
+
+.sidebar .sidebar-body .sidebar-buttons-wrapper .sidebar-btn:hover{
+    padding-left: 5rem;
+}
+
+.main-container{
+    flex-basis: 100vw;
+    height: 100vh;
+    transition: margin-left .5s; 
+    position: relative;
+    margin-left: 25rem;
+}
+
+.main-full-scr{
+    margin-left: 0rem;
+}
+
+.main-container .navbar{
+    display: flex;
+    align-items: center;
+    background-color: var(--background-color);
+    width: 100%;
+    height: 10%;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.main-container .navbar .nav-header{
+    color: white;
+}
+
+.main-container .navbar .toggle-btn{
+    color: white;
+    background-color: var(--background-color);
+    border: none;
+}
+
+.main-container .navbar .toggle-btn{
+    margin: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+/* Common for all Component  */
+.main-container .component{
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    margin: 2% 5%;
+    padding: 1rem;
+    position: absolute;
+    transition: opacity 0.1s linear 0.3s;
+    height: 100%;
+    width: 90%;
+}
+
+.main-container .component h1{
+    margin: 1rem 0 2rem 0;
+}
+
+.main-container .active-component{
+    opacity: 1;
+    z-index: 99;
+}
+
+/* Media Query for Responsible text size and screen  */
+@media(max-width:998px){
+    html{
+        font-size: 60%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 55%;
+    }
+    .sidebar-active{
+        width: 25rem;
+    }
+    .main-full-scr{
+        margin-left: 0rem;
+    }
+}
+
+@media(max-width:640px){
+    html{
+        font-size: 45%;
+    }
+
+    .sidebar-active{
+        width: 25rem;
+    }
+    .main-full-scr{
+        margin-left: 0rem;
+    }
+}
+
+@media(max-width:480px){
+    html{
+        font-size: 40%;
+    }
+
+    .sidebar-active{
+        width: 20rem;
+    }
+    .main-full-scr{
+        margin-left: 10rem;
+    }
+
+    .main-container{
+        margin-left: 20rem;
+    }
+}
+
+/* Floating Action Buttons  */
+.float-btn{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.iframe{
+    width: 100%;
+    border: none;
+    min-height: 30rem;
+    transform: scale(1); 
+    overflow:scroll;
+    margin: 2rem 0;
+}
