@@ -104,7 +104,7 @@
             </div>
 
             <!-- Alert Component  -->
-            <div class="component active-component" id="alert-component">
+            <div class="component " id="alert-component">
                 <h1 class="md-h">Alert</h1>
                 <p class="md-text">An alert displays a short, important message in a way that attracts the user's
                     attention without interrupting the user's task.</p>
@@ -165,8 +165,69 @@
             </div>
 
             <!-- Badge Component  -->
-            <div id="badge-component" class="component">
-                <h1>Badge</h1>
+            <div id="badge-component" class="component active-component">
+                <h2 class="md-h">Badge</h2>
+                <p class="md-text">Badges are small circles, positioned either at top-right or bottom-right of the
+                    parent component. Badge can be used to display numbers, online / offline status, depending on where
+                    they are used.
+                </p>
+                <hr class="line">
+                <h3 class="md-h">Badge on Icon</h3>
+                <div id="badge-onicon" class="badge-type">
+                    <div class="badge">
+                        <i class="fas fa-shopping-cart xlg-text"></i>
+                        <div class="number badge-primary sm-text">4</div>
+                    </div>
+                    <div class="badge">
+                        <i class="far fa-thumbs-up xlg-text"></i>
+                        <div class="number badge-secondary sm-text">4</div>
+                    </div>
+                    <div class="badge">
+                        <i class="far fa-envelope xlg-text"></i>
+                        <div class="number badge-success sm-text">4</div>
+                    </div>
+                    <div class="badge">
+                        <i class="far fa-bell xlg-text"></i>
+                        <div class="number badge-danger sm-text">4</div>
+                    </div>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520xlg-text%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number%2520badge-primary%2520sm-text%2522%253E4%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-thumbs-up%2520xlg-text%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number%2520badge-secondary%2520sm-text%2522%253E4%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-envelope%2520xlg-text%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number%2520badge-success%2520sm-text%2522%253E4%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-bell%2520xlg-text%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number%2520badge-danger%2520sm-text%2522%253E4%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="line">
+                <h1 class="md-h">Badge on Avatar</h1>
+                <div id="badge-onavatar" class="badge-type">
+                    <div class="badge-avatar">
+                        <div class="avatar xlg-avatar ">
+                            <img class="avatar-cir-img" src="https://source.unsplash.com/200x200/?man" alt="Avatar">
+                        </div>
+                        <div class="status status-online xlg-status sm-text"></div>
+                    </div>
+                    <div class="badge-avatar">
+                        <div class="avatar lg-avatar ">
+                            <img class="avatar-cir-img" src="https://source.unsplash.com/200x200/?woman" alt="Avatar">
+                        </div>
+                        <div class="status status-busy lg-status sm-text"></div>
+                    </div>
+                    <div class="badge-avatar">
+                        <div class="avatar md-avatar">
+                            <img class="avatar-cir-img" src="https://source.unsplash.com/200x200/?boy" alt="Avatar">
+                        </div>
+                        <div class="status status-offline md-status sm-text"></div>
+                    </div>
+                    <div class="badge-avatar">
+                        <div class="avatar sm-avatar">
+                            <img class="avatar-cir-img" src="https://source.unsplash.com/200x200/?girl" alt="Avatar">
+                        </div>
+                        <div class="status status-away sm-status sm-text"></div>
+                    </div>
+
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-avatar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520xlg-avatar%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-cir-img%2522%2520src%253D%2522%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522status%2520status-online%2520xlg-status%2520sm-text%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-avatar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520lg-avatar%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-cir-img%2522%2520src%253D%2522%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522status%2520status-busy%2520lg-status%2520sm-text%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-avatar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520md-avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-cir-img%2522%2520src%253D%2522%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522status%2520status-offline%2520md-status%2520sm-text%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-avatar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520sm-avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-cir-img%2522%2520src%253D%2522%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522status%2520status-away%2520sm-status%2520sm-text%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
 
 

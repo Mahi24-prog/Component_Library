@@ -1,0 +1,123 @@
+#badge-component{
+    display: flex; 
+    flex-direction: column;
+ }
+ 
+ 
+ 
+ #badge-component #badge-onicon{
+     
+ }
+ 
+ .badge{
+     display: inline-block;
+     position: relative;
+     margin: 1rem 4rem;
+ }
+ 
+ .badge .number{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     height: 2rem;
+     width: 2rem;
+     border-radius: 50%;
+     position: absolute;
+     top: -0.8rem;
+     right: -1.4rem;
+ }
+ 
+ .badge-primary{
+     background-color: #0275d8;
+ }
+ 
+ .badge-secondary{
+     background-color: #576574;
+ }
+ 
+ .badge-success{
+     background-color: #5cb85c;
+ }
+ 
+ .badge-danger{
+     background-color: #d9534f;
+ }
+ 
+ /* Badge on Avatar  */
+ 
+ .badge-avatar{
+     position: relative;
+ }
+ 
+ .badge-avatar{
+     display: inline-block;
+     position: relative;
+     margin: 1rem 4rem;
+ }
+ 
+ .badge-avatar .status{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+ }
+ 
+ .xlg-status{
+     height: 2.5rem;
+     width: 2.5rem;
+     border-radius: 50%;
+     position: absolute;
+     bottom: 1.8rem;
+     right: 3rem;
+ }
+ 
+ .lg-status{
+     height: 2.3rem;
+     width: 2.3rem;
+     border-radius: 50%;
+     position: absolute;
+     bottom: 1.8rem;
+     right: 2.5rem;
+ }
+ 
+ .md-status{
+     height: 2rem;
+     width: 2rem;
+     border-radius: 50%;
+     position: absolute;
+     bottom: 1.8rem;
+     right: 2.3rem;
+ }
+ 
+ .sm-status{
+     height: 1.8rem;
+     width: 1.8rem;
+     border-radius: 50%;
+     position: absolute;
+     bottom: 1.5rem;
+     right: 2rem;
+ }
+ 
+ .badge-avatar .status-online{
+     background-color: green;
+     border:2px solid white
+ }
+ 
+ .badge-avatar .status-busy{
+     background-color: rgb(241, 32, 32);
+     border:2px solid white
+ }
+ 
+ .badge-avatar .status-offline{
+     background-color: grey;
+     border:2px solid white
+ }
+ 
+ .badge-avatar .status-away{
+     background-color: rgb(243, 243, 70);
+     border:2px solid white
+ }
+ 
+ 
+ 
