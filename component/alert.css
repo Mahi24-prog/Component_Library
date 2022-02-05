@@ -1,0 +1,77 @@
+#alert-component{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.alert{
+    margin: 2rem;
+    height: fit-content;
+}
+
+/* Common for all alert component  */
+#alert-component .alert-type{ 
+    height: fit-content;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.alert{
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+/* Simple Alert  */
+.alert-primary{
+    background-color: var(--com-primary-lightclr);
+    color: 	var(var(--com-primary-darkclr))
+}
+
+.alert-secondary{
+    background-color: var(--com-secondary-lightclr);
+    color: var(--com-secondary-darkclr);
+}
+
+.alert-success{
+    background-color: var(--com-success-lightclr);
+    color: 	var(--com-success-darkclr);
+}
+
+.alert-danger{
+    background-color:var(--com-danger-lightclr);
+    color: 	var(--com-danger-darkclr);
+}
+
+.alert-warning{
+    background-color: var(--com-warning-lightclr);
+    color: var(--com-warning-darkclr);
+}
+
+/* Outline Alert  */
+.alert-outline-primary{
+    border:2px solid var(--com-primary-lightclr);
+    color: 	var(--com-primary-darkclr);
+}
+
+.alert-outline-secondary{
+    border:2px solid var(--com-secondary-lightclr);
+    color: var(--com-secondary-darkclr);
+}
+
+.alert-outline-success{
+    border:2px solid var(--com-success-lightclr);
+    color: 	var(--com-success-darkclr);
+}
+
+.alert-outline-danger{
+    border:2px solid var(--com-danger-lightclr);
+    color: 	var(--com-danger-darkclr);
+}
+
+.alert-outline-warning{
+    border:2px solid var(--com-warning-lightclr);
+    color: var(--com-warning-darkclr);
+}
+

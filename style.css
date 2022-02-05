@@ -20,6 +20,17 @@ body{
     --primary-color:#042331;
     --secondary-color:#063146;
     --background-color: #063146;
+
+    --com-primary-darkclr:#0275d8;
+    --com-primary-lightclr:#cce5ff;
+    --com-secondary-darkclr:#576574;
+    --com-secondary-lightclr:#e2e3e5;
+    --com-success-darkclr:#0275d8;
+    --com-success-lightclr:#d4edda;
+    --com-danger-darkclr:#d9534f;
+    --com-danger-lightclr:#f8d7da;
+    --com-warning-darkclr:#f0ad4e;
+    --com-warning-lightclr:#fff3cd;
 }
 
 /* Heading Typography  */

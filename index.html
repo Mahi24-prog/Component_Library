@@ -47,7 +47,7 @@
             </div>
 
             <!-- Avatar Component  -->
-            <div id="avatar-component" class="component active-component">
+            <div id="avatar-component" class="component ">
                 <h2 class="md-h">Avatar</h2>
                 <p class="md-text">Avatars are user profile pictures, usually found in circular shapes. Avatars can be
                     used for 'container' objects — projects, spaces, repositories, etcetera — to give them a
@@ -104,8 +104,64 @@
             </div>
 
             <!-- Alert Component  -->
-            <div class="component" id="alert-component">
-               <h1>Alert</h1>
+            <div class="component active-component" id="alert-component">
+                <h1 class="md-h">Alert</h1>
+                <p class="md-text">An alert displays a short, important message in a way that attracts the user's
+                    attention without interrupting the user's task.</p>
+                <hr class="line">
+                <h3 class="sm-h">Primary Alert</h3>
+                <p class="md-text">Alerts are available in 5 types- primary alert,secondary alert, success alert, danger
+                    alert, warning alert.
+                    To use this alert just use class name alert and also add class according to alert type-
+                    alert-primary, alert-secondary, alert-danger, alert-success, alert-warning. (e.g.class="alert
+                    alert-primary").
+                    You can copy html part from below code snippet.</p>
+                <div id="simple-alert" class="alert-type">
+                    <div class="alert alert-primary sm-text">
+                        <strong class="md-text">Primary!</strong> This is a Primary Alert - Check it now!
+                    </div>
+                    <div class="alert alert-secondary sm-text">
+                        <strong class="md-text">Secondary!</strong> This is an Secondary Alert - Check it now!
+                    </div>
+                    <div class="alert alert-success sm-text">
+                        <strong class="md-text">Success!</strong> This is a Success Alert - Check it now!
+                    </div>
+                    <div class="alert alert-danger sm-text">
+                        <strong class="md-text">Danger!</strong> This is a Success Alert - Check it now!
+                    </div>
+                    <div class="alert alert-warning sm-text">
+                        <strong class="md-text">Warning!</strong> This is a Warning Alert - Check it now!
+                    </div>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2520sm-text%2522%253E%250A%2520%2520%2520%2520%253Cstrong%2520class%253D%2522md-text%2522%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2520sm-text%2522%253E%250A%2520%2520%2520%2520%253Cstrong%2520class%253D%2522md-text%2522%253ESecondary%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Secondary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2520sm-text%2522%253E%250A%2520%2520%2520%2520%253Cstrong%2520class%253D%2522md-text%2522%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2520sm-text%2522%253E%250A%2520%2520%2520%2520%253Cstrong%2520class%253D%2522md-text%2522%253EDanger%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2520sm-text%2522%253E%250A%2520%2520%2520%2520%253Cstrong%2520class%253D%2522md-text%2522%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="line" />
+                <h1 class="md-h">Outline Alert</h1>
+                <p class="md-text">Outline Alert is similar to Primary alert. Its avilable with outline.
+                </p>
+                <div id="outline-alert" class="alert-type">
+                    <div class="alert alert-outline-primary sm-text">
+                        <strong class="md-text">Primary!</strong> This is a Primary Alert - Check it now!
+                    </div>
+                    <div class="alert alert-outline-secondary sm-text">
+                        <strong class="md-text">Secondary!</strong> This is an Secondary Alert - Check it now!
+                    </div>
+                    <div class="alert alert-outline-success sm-text">
+                        <strong class="md-text">Success!</strong> This is a Success Alert - Check it now!
+                    </div>
+                    <div class="alert alert-outline-danger sm-text">
+                        <strong class="md-text">Danger!</strong> This is a Success Alert - Check it now!
+                    </div>
+                    <div class="alert alert-outline-warning sm-text">
+                        <strong class="md-text">Warning!</strong> This is a Warning Alert - Check it now!
+                    </div>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522outline-alert%2522%2520class%253D%2522alert-type%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-outline-primary%2520sm-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%2520class%253D%2522md-text%2522%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-outline-secondary%2520sm-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%2520class%253D%2522md-text%2522%253ESecondary%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Secondary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-outline-success%2520sm-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%2520class%253D%2522md-text%2522%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-outline-danger%2520sm-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%2520class%253D%2522md-text%2522%253EDanger%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-outline-warning%2520sm-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%2520class%253D%2522md-text%2522%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
 
             <!-- Badge Component  -->
