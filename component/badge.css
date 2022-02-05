@@ -1,12 +1,14 @@
+:root{
+    --online-clr:green;
+    --busy-clr:rgb(241, 32, 32);
+    --offline-clr:gray;
+    --away-clr:rgb(243, 243, 70);
+}
+
+
 #badge-component{
     display: flex; 
     flex-direction: column;
- }
- 
- 
- 
- #badge-component #badge-onicon{
-     
  }
  
  .badge{
@@ -29,19 +31,18 @@
  }
  
  .badge-primary{
-     background-color: #0275d8;
+     background-color: var(--com-primary-darkclr);
  }
- 
  .badge-secondary{
-     background-color: #576574;
+     background-color: var(--com-secondary-darkclr);
  }
  
  .badge-success{
-     background-color: #5cb85c;
+     background-color: var(--com-success-darkclr);
  }
  
  .badge-danger{
-     background-color: #d9534f;
+     background-color: var(--com-danger-darkclr);
  }
  
  /* Badge on Avatar  */
@@ -100,22 +101,22 @@
  }
  
  .badge-avatar .status-online{
-     background-color: green;
+     background-color: var(--online-clr);
      border:2px solid white
  }
  
  .badge-avatar .status-busy{
-     background-color: rgb(241, 32, 32);
+     background-color: var(--busy-clr);
      border:2px solid white
  }
  
  .badge-avatar .status-offline{
-     background-color: grey;
+     background-color: var(--offline-clr);
      border:2px solid white
  }
  
  .badge-avatar .status-away{
-     background-color: rgb(243, 243, 70);
+     background-color: var(--away-clr);
      border:2px solid white
  }
  
