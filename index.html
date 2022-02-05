@@ -232,7 +232,7 @@
 
 
             <!-- Button Component  -->
-            <div id="button-component" class="component active-component">
+            <div id="button-component" class="component ">
 
                 <h2 class="lg-h">Buttons</h2>
                 <p class="md-text">Buttons are also called as call to action. We have range of buttons and their states.
@@ -491,13 +491,64 @@
             </div>
 
             <!-- Image Component  -->
-            <div id="image-component" class="component">
-                <h1>Image</h1>
+            <div id="image-component" class="component active-component">
+                <h2 class="md-h">Images</h2>
+                <p class="md-text">Images can be responsive to fit the parent's width, and also can be customised to be
+                    round shaped</p>
+                <hr class="line">
+                <h3 class="md-h">Responsive Image</h3>
+                <div id="res-img" class="res-img-wrapper image-type">
+                    <img class="res-img" src="https://source.unsplash.com/1100x500/?laptop" alt="img" alt="">
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522res-img%2522%2520class%253D%2522res-img-wrapper%2520image-type%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522res-img%2522%2520src%253D%2522%2523%2522%2520alt%253D%2522img%2522%2520alt%253D%2522%2522%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="line">
+                <h3 class="md-h">Rounded Image</h3>
+                <div id="round-img" class="round-img-wrapper image-type">
+                    <img class="round-img" src="https://source.unsplash.com/500x500/?man" alt="img" alt="">
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520id%253D%2522round-img%2522%2520class%253D%2522round-img-wrapper%2520image-type%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522round-img%2522%2520src%253D%2522%2523%2522%2520alt%253D%2522img%2522%2520alt%253D%2522%2522%253E%250A%2520%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
 
             <!-- Input Component  -->
             <div id="input-component" class="component">
-                <h1>Input</h1>
+                <h2 class="md-h">Input</h2>
+                <hr class="line">
+                <h3 class="sm-h">Simple Input</h3>
+                <div class="input-simple input-type">
+                    <form action="#">
+                        <label for="fname" class="sm-text">First Name</label>
+                        <input class="sm-text" type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label class="sm-text" for="lname">Last Name</label>
+                        <input class="sm-text" type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+                <h3 class="sm-h">Textarea</h3>
+                <hr class="line">
+                <div class="input-textarea">
+                    <form action="#">
+                        <label for="input-textarea-box" class="md-text">Something about yorself : </label>
+                        <textarea class="input-textarea-box md-text" name="input-textarea-box" id="" cols="30"
+                            rows="10">Type here...</textarea>
+                    </form>
+                </div>
+                <h3 class="sm-h">Input with error message</h3>
+                <hr class="line">
+                <div class="input-error">
+                    <form action="#">
+                        <label for="Email Address" class="sm-text">Email</label>
+                        <input class="input-err sm-text"  type="email" type="text" id="fname" name="firstname"
+                            placeholder="Your name..">
+                        <p class="input-err-msg md-text">Invalid Email Address !!!</p>
+                    </form>
+                </div>
             </div>
 
 
