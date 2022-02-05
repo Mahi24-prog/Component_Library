@@ -1,0 +1,77 @@
+#alert-component{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.alert{
+    margin: 2rem;
+    height: fit-content;
+}
+
+/* Common for all alert component  */
+#alert-component .alert-type{ 
+    height: fit-content;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.alert{
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+/* Simple Alert  */
+.alert-primary{
+    background-color: #cce5ff;
+    color: 	#0275d8;
+}
+
+.alert-secondary{
+    background-color: #e2e3e5;
+    color: #576574;
+}
+
+.alert-success{
+    background-color: #d4edda;
+    color: 	#0275d8;
+}
+
+.alert-danger{
+    background-color: #f8d7da;
+    color: 	#d9534f;
+}
+
+.alert-warning{
+    background-color: #fff3cd;
+    color: #f0ad4e;
+}
+
+/* Outline Alert  */
+.alert-outline-primary{
+    border:2px solid #cce5ff;
+    color: 	#0275d8;
+}
+
+.alert-outline-secondary{
+    border:2px solid #e2e3e5;
+    color: #576574;
+}
+
+.alert-outline-success{
+    border:2px solid #d4edda;
+    color: 	#5cb85c;
+}
+
+.alert-outline-danger{
+    border:2px solid #f8d7da;
+    color: 	#d9534f;
+}
+
+.alert-outline-warning{
+    border:2px solid #fff3cd;
+    color: #f0ad4e;
+}
+
