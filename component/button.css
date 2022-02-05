@@ -1,0 +1,187 @@
+.btn{
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.button-type{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+/* Primary Buttons  */
+.btn-primary{
+    background-color:var(--com-primary-darkclr);
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color:#035fb1;
+}
+
+.btn-secondary{
+    background-color: var(--com-secondary-darkclr);
+    color: white;
+}
+
+.btn-secondary:hover{
+    background-color:#646969;
+}
+
+.btn-success{
+    background-color:var(--com-success-darkclr);
+    color: white;
+}
+
+.btn-success:hover{
+    background-color:#36a736;
+}
+
+.btn-danger{
+    background-color:var(--com-danger-darkclr);
+    color: white;
+}
+
+.btn-danger:hover{
+    background-color:#db3a34;
+}
+
+.btn-warning{
+    background-color:var(--com-warning-darkclr);
+    color: black;
+}
+
+.btn-warning:hover{
+    background-color:#f3a230;
+}
+
+.btn-info{
+    background-color:var(--com-info-darkclr);
+    color: white;
+}
+
+.btn-info:hover{
+    background-color:#3bb0d3;
+}
+
+.btn-light{
+    background-color:#f7f7f7	;
+    color: black;
+}
+
+.btn-light:hover{
+    background-color:#ecf0f1;
+}
+
+.btn-dark{
+    background-color:#353738;
+    color: white;
+}
+
+.btn-dark:hover{
+    background-color:#1e2020;
+}
+
+/* Outline Buttons  */
+
+.outline-btn{
+    background-color: white;
+}
+
+.btn-outline-primary{
+    color:var(--com-primary-darkclr);
+    border:1px solid var(--com-primary-darkclr);
+}
+
+.btn-outline-primary:hover{
+    background-color:var(--com-primary-darkclr);
+    color: white;
+}
+
+.btn-outline-secondary{
+    color:var(--com-secondary-darkclr);
+    border:1px solid var(--com-secondary-darkclr);
+}
+
+.btn-outline-secondary:hover{
+    background-color:var(--com-secondary-darkclr);
+    color: white;
+}
+
+.btn-outline-success{
+    color:var(--com-success-darkclr);
+    border:1px solid var(--com-success-darkclr);
+}
+
+.btn-outline-success:hover{
+    background-color:var(--com-success-darkclr);
+    color: white;
+}
+
+.btn-outline-danger{
+    color:var(--com-danger-darkclr);
+    border:1px solid var(--com-danger-darkclr);
+}
+
+.btn-outline-danger:hover{
+    background-color:var(--com-danger-darkclr);
+    color: white;
+}
+
+.btn-outline-warning{
+    color:var(--com-warning-darkclr);
+    border:1px solid var(--com-warning-darkclr);
+}
+
+.btn-outline-warning:hover{
+    background-color:var(--com-warning-darkclr);
+    color: black;
+}
+
+.btn-outline-info{
+    color:var(--com-info-darkclr);
+    border:1px solid var(--com-info-darkclr);
+}
+
+.btn-outline-info:hover{
+    background-color:var(--com-info-darkclr);
+    color: white;
+}
+
+.btn-outline-light{
+    color:#7f8c8d;
+    border:1px solid #7f8c8d;
+}
+
+.btn-outline-light:hover{
+    background-color:#ecf0f1;
+    color: black;
+}
+
+.btn-outline-dark{
+    color:#353738;
+    border:1px solid #353738;
+}
+
+.btn-outline-dark:hover{
+    background-color:#353738;
+    color: white;
+}
+
+/* Icon Buttons  */
+
+/* Link Buttons  */
+
+.btn-link-primary{
+    text-decoration: none;
+    color:#0275d8;
+}
+
+.btn-link-primary:hover{
+    text-decoration:underline;
+}

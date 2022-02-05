@@ -165,7 +165,7 @@
             </div>
 
             <!-- Badge Component  -->
-            <div id="badge-component" class="component active-component">
+            <div id="badge-component" class="component">
                 <h2 class="md-h">Badge</h2>
                 <p class="md-text">Badges are small circles, positioned either at top-right or bottom-right of the
                     parent component. Badge can be used to display numbers, online / offline status, depending on where
@@ -232,13 +232,262 @@
 
 
             <!-- Button Component  -->
-            <div id="button-component" class="component">
-                <h1>Button</h1>
+            <div id="button-component" class="component active-component">
+
+                <h2 class="lg-h">Buttons</h2>
+                <p class="md-text">Buttons are also called as call to action. We have range of buttons and their states.
+                    You may use a tag or button element, you need to add respective classes, and you are good to go.</p>
+                <hr class="line">
+                <h3 class="md-h">Primary Buttons</h3>
+                <div id="buttons-primary" class="button-type">
+                    <button class="btn-primary btn">Primary</button>
+                    <button class="btn-secondary btn">Secondary</button>
+                    <button class="btn-success btn">Success</button>
+                    <button class="btn-danger btn">Danger</button>
+                    <button class="btn-warning btn">Warning</button>
+                    <button class="btn-info btn">Info</button>
+                    <button class="btn-light btn">Light</button>
+                    <button class="btn-dark btn">Dark</button>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-primary%2520btn%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-secondary%2520btn%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-success%2520btn%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-danger%2520btn%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-warning%2520btn%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-info%2520btn%2522%253EInfo%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-light%2520btn%2522%253ELight%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-dark%2520btn%2522%253EDark%253C%252Fbutton%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h3 class="md-h">Outline Buttons</h3>
+                <div id="buttons-outline" class="button-type">
+                    <button class="btn-outline-primary btn outline-btn">Primary</button>
+                    <button class="btn-outline-secondary btn outline-btn">Secondary</button>
+                    <button class="btn-outline-success btn outline-btn">Success</button>
+                    <button class="btn-outline-danger btn outline-btn">Danger</button>
+                    <button class="btn-outline-warning btn outline-btn">Warning</button>
+                    <button class="btn-outline-info btn outline-btn">Info</button>
+                    <button class="btn-outline-light btn outline-btn">Light</button>
+                    <button class="btn-outline-dark btn outline-btn">Dark</button>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-outline-primary%2520btn%2520outline-btn%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-outline-secondary%2520btn%2520outline-btn%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-outline-success%2520btn%2520outline-btn%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-outline-danger%2520btn%2520outline-btn%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-outline-warning%2520btn%2520outline-btn%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-outline-info%2520btn%2520outline-btn%2522%253EInfo%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-outline-light%2520btn%2520outline-btn%2522%253ELight%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-outline-dark%2520btn%2520outline-btn%2522%253EDark%253C%252Fbutton%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h3 class="md-h">Icon Buttons</h3>
+                <div id="buttons-icon" class="button-type">
+                    <button class="btn-outline-primary btn">
+                        <i class="far fa-thumbs-up lg-text"></i>
+                    </button>
+                    <button class="btn-secondary btn">
+                        <i class="fab fa-amazon-pay lg-text"></i>
+                    </button>
+                    <button class="btn-success btn"><i class="far fa-star lg-text"></i></button>
+                    <button class="btn-danger btn"><i class="fas fa-times lg-text"></i></button>
+                    <button class="btn-warning btn"><i class="far fa-bell lg-text"></i></button>
+                    <button class="btn-info btn"><i class="fab fa-angellist lg-text"></i></button>
+                    <button class="btn-light btn"><i class="fas fa-briefcase-medical lg-text"></i></button>
+                    <button class="btn-dark btn"><i class="fab fa-cc-mastercard lg-text"></i></button>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-outline-primary%2520btn%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-thumbs-up%2520lg-text%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-secondary%2520btn%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fab%2520fa-amazon-pay%2520lg-text%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-success%2520btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-star%2520lg-text%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-danger%2520btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2520lg-text%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-warning%2520btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-bell%2520lg-text%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-info%2520btn%2522%253E%253Ci%2520class%253D%2522fab%2520fa-angellist%2520lg-text%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-light%2520btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-briefcase-medical%2520lg-text%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-dark%2520btn%2522%253E%253Ci%2520class%253D%2522fab%2520fa-cc-mastercard%2520lg-text%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h3 class="md-h">Floating Action Button</h3>
+                <div id="buttons-primary" class="button-type">
+                    <button class="btn-danger float-btn btn"><i class="fas fa-plus lg-text"></i></button>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-danger%2520float-btn%2520btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-plus%2520lg-text%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h3 class="md-h">Link Button</h3>
+                <div id="buttons-primary" class="button-type">
+                    <a href="#" class="btn-link-primary btn">Link</a>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn-link-primary%2520btn%2522%253ELink%253C%252Fa%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
 
             <!-- Card Component  -->
             <div id="card-component" class="component">
-               <h1>Card</h1>
+                <h2 class="md-h">Card</h2>
+                <p class="md-text">Cards are surfaces that display content and actions on a single topic.
+                    They should be easy to scan for relevant and actionable information. Elements, like text and images,
+                    should be placed on them in a way that clearly indicates hierarchy.</p>
+                <hr class="line">
+                <h3 class="md-h">Cards with Badge</h3>
+                <div id="card-badge" class="card-type">
+                    <div class="card-with-badge card card-product">
+                        <div class="card-badge-label sm-text">NEW</div>
+                        <img class="card-img" src="https://source.unsplash.com/300x200/?shirt" alt="Image">
+                        <div class="card-body">
+                            <h2 class="card-title xsm-h">Calvin Klein Original</h2>
+                            <p class="card-subtitle sm-text gray-text">Men Slim Fit Casual Shirt</p>
+                        </div>
+                        <div class="card-product-price">
+                            <h2 class="product-price">RS.999</h2>
+                            <div class="product-offer sm-text"><strike>Rs.1999</strike> <span>(55% OFF)</span>
+                                <span class="rating">4.5<i class="fas fa-star"></i></span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="card-btn-primary">Buy Now</button>
+                            <button class="card-btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card-with-badge card">
+                        <div class="card-badge-label sm-text">Technology</div>
+                        <img class="card-img" src="https://source.unsplash.com/300x200/?technology" alt="Image">
+                        <div class="card-body">
+                            <h2 class="card-title xsm-h">Technology</h2>
+                            <p class="card-subtitle sm-text gray-text">Get the latest technology and engineering </p>
+                        </div>
+                        <div class="card-footer">
+                            <i class="far fa-heart lg-text card-icon"></i>
+                            <i class="far fa-comment lg-text card-icon"></i>
+                            <i class="fas fa-share lg-text card-icon"></i>
+                            <button class="card-btn-primary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-with-badge%2520card%2520card-product%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge-label%2520sm-text%2522%253ENEW%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522%2522%2520alt%253D%2522Image%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2520xsm-h%2522%253ECalvin%2520Klein%2520Original%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2520sm-text%2520gray-text%2522%253EMen%2520Slim%2520Fit%2520Casual%2520Shirt%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-product-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522product-price%2522%253ERS.999%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-offer%2520sm-text%2522%253E%253Cstrike%253ERs.1999%253C%252Fstrike%253E%2520%253Cspan%253E%2855%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522rating%2522%253E4.5%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-secondary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-with-badge%2520card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge-label%2520sm-text%2522%253ETechnology%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522%2522%2520alt%253D%2522Image%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2520xsm-h%2522%253ETechnology%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2520sm-text%2520gray-text%2522%253E%250AGet%2520the%2520latest%2520technology%2520and%2520engineering%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520lg-text%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-comment%2520lg-text%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share%2520lg-text%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-primary%2522%253ERead%2520More%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="line">
+                <h3 class="md-h">Cards with Dismiss</h3>
+                <div id="card-badge" class="card-type">
+                    <div class="card-with-dismiss card card-product">
+                        <button class="card-dismiss-btn"><i class="far fa-times-circle lg-text"></i></button>
+                        <img class="card-img" src="https://source.unsplash.com/300x200/?car" alt="Image">
+                        <div class="card-body">
+                            <h2 class="card-title xsm-h">Calvin Klein Original</h2>
+                            <p class="card-subtitle sm-text gray-text">Men Slim Fit Casual Shirt</p>
+                        </div>
+                        <div class="card-product-price">
+                            <h2 class="product-price">RS.999</h2>
+                            <div class="product-offer sm-text"><strike>Rs.1999</strike> <span>(55% OFF)</span>
+                                <span class="rating">4.5<i class="fas fa-star"></i></span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="card-btn-primary">Buy Now</button>
+                            <button class="card-btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-with-dismiss%2520card%2520card-product%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-dismiss-btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-times-circle%2520lg-text%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522%2522%2520alt%253D%2522Image%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2520xsm-h%2522%253ECalvin%2520Klein%2520Original%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2520sm-text%2520gray-text%2522%253EMen%2520Slim%2520Fit%2520Casual%2520Shirt%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-product-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522product-price%2522%253ERS.999%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-offer%2520sm-text%2522%253E%253Cstrike%253ERs.1999%253C%252Fstrike%253E%2520%253Cspan%253E%2855%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522rating%2522%253E4.5%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-secondary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="line">
+                <h3 class="md-h">Cards with Text Ovelay</h3>
+                <div id="card-badge" class="card-type">
+                    <div class="card-with-textoverlay card">
+                        <h2 class="card-title xsm-h card-overlay-text sm-h">The Coldest Sunset</h2>
+                        <img class="card-img" src="https://source.unsplash.com/300x200/?sunset" alt="Image">
+                        <div class="card-body">
+                            <p class="card-subtitle sm-text gray-text">Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Magnam ullam, quae similique aut id a voluptatem dolores eveniet alias
+                                soluta.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="card-btn-primary">More Info</button>
+                        </div>
+                    </div>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-with-textoverlay%2520card%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2520xsm-h%2520card-overlay-text%2520sm-h%2522%253EThe%2520Coldest%2520Sunset%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522%2522%2520alt%253D%2522Image%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2520sm-text%2520gray-text%2522%253ELorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520adipisicing%2520elit.%2520Magnam%2520ullam%252C%2520quae%2520similique%2520aut%2520id%2520a%2520voluptatem%2520dolores%2520eveniet%2520alias%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520soluta.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-primary%2522%253EMore%2520Info%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="line">
+                <h3 class="md-h">Text only card</h3>
+                <div id="card-textonly" class="card-type">
+                    <div class="card-textonly card">
+                        <div class="card-body">
+                            <h2 class="card-title xsm-h sm-h">Can coffee make you a better developer?</h2>
+                            <p class="card-subtitle sm-text gray-text">Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Non atque maxime velit eveniet iusto, voluptatibus fugit, quam sunt
+                                obcaecati perspiciatis veritatis, laboriosam itaque minima dolor nihil fuga possimus ex
+                                similique numquam veniam consectetur quidem eum expedita eius. Voluptatem perferendis
+                                nemo veritatis repellendus enim voluptates voluptatibus iste officia impedit error quas
+                                libero sed iure itaque cupiditate dignissimos, illum sit, recusandae, totam est. Dolor
+                                aspernatur cupiditate eum, saepe quas aut possimus dolore magni optio vero nostrum
+                                omnis. Nam explicabo quaerat eveniet ullam?</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="avatar sm-avatar">
+                                <img class="avatar-cir-img" src="https://source.unsplash.com/200x200/?boy" alt="Avatar">
+                            </div>
+                            <h3 class="gray-text">Jonathan Reinink <br>Aug 2021 </h3>
+                        </div>
+                    </div>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-textonly%2520card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2520xsm-h%2520sm-h%2522%253ECan%2520coffee%2520make%2520you%2520a%2520better%2520developer%253F%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2520sm-text%2520gray-text%2522%253EWrite%2520your%2520content%2520here%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520sm-avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-cir-img%2522%2520src%253D%2522https%253A%252F%252Fsource.unsplash.com%252F200x200%252F%253Fboy%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522gray-text%2522%253EJonathan%2520Reinink%2520%253Cbr%253EAug%25202021%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="line">
+                <h3 class="md-h">Horizontal Card</h3>
+                <div id="card-horizontal" class="card-type">
+                    <div class="card-horizontal card">
+                        <img class="card-img" src="https://source.unsplash.com/300x300/?cofee" alt="Image">
+                        <div class="card-body">
+                            <h2 class="card-title xsm-h sm-h">Can coffee make you a better developer?</h2>
+                            <p class="card-subtitle sm-text gray-text">Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Magnam ullam, quae similique aut id a voluptatem dolores eveniet alias
+                                soluta.</p>
+                            <div class="card-footer">
+                                <div class="avatar sm-avatar">
+                                    <img class="avatar-cir-img" src="https://source.unsplash.com/200x200/?man"
+                                        alt="Avatar">
+                                </div>
+                                <h3 class="gray-text">Jonathan Reinink <br>Aug 2021 </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2520card%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fsource.unsplash.com%252F300x300%252F%253Fcofee%2522%2520alt%253D%2522Image%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2520xsm-h%2520sm-h%2522%253ECan%2520coffee%2520make%2520you%2520a%2520better%2520developer%253F%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2520sm-text%2520gray-text%2522%253EWrite%2520your%2520content%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520sm-avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-cir-img%2522%2520src%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522gray-text%2522%253EJonathan%2520Reinink%2520%253Cbr%253EAug%25202021%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="line">
+                <h3 class="md-h">Card with Shadow</h3>
+                <div id="card-shadow" class="card-type">
+                    <div class="card-shadow card card-product">
+                        <img class="card-img" src="https://source.unsplash.com/300x200/?shirt" alt="Image">
+                        <div class="card-body">
+                            <h2 class="card-title xsm-h">Calvin Klein Original</h2>
+                            <p class="card-subtitle sm-text gray-text">Men Slim Fit Casual Shirt</p>
+                        </div>
+                        <div class="card-product-price">
+                            <h2 class="product-price">RS.999</h2>
+                            <div class="product-offer sm-text"><strike>Rs.1999</strike> <span>(55% OFF)</span>
+                                <span class="rating">4.5<i class="fas fa-star"></i></span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="card-btn-primary">Buy Now</button>
+                            <button class="card-btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card-shadow card">
+                        <img class="card-img" src="https://source.unsplash.com/300x200/?technology" alt="Image">
+                        <div class="card-body">
+                            <h2 class="card-title xsm-h">Technology</h2>
+                            <p class="card-subtitle sm-text gray-text">Get the latest technology and engineering </p>
+                        </div>
+                        <div class="card-footer">
+                            <i class="far fa-heart lg-text card-icon"></i>
+                            <i class="far fa-comment lg-text card-icon"></i>
+                            <i class="fas fa-share lg-text card-icon"></i>
+                            <button class="card-btn-primary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-shadow%2520card%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522%2522%2520alt%253D%2522Image%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2520xsm-h%2522%253ETechnology%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2520sm-text%2520gray-text%2522%253Ewrite%2520ypur%2520content%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520lg-text%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-comment%2520lg-text%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share%2520lg-text%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-primary%2522%253ERead%2520More%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 637px; height: 299px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="line">
             </div>
 
             <!-- Image Component  -->
