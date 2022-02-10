@@ -167,8 +167,8 @@ html{
 }
 
 .main-container{
-    flex-basis: 100vw;
-    height: 100vh;
+    flex-grow: 1;
+    height: fit-content;
     transition: margin-left .5s; 
     position: relative;
     margin-left: 25rem;
@@ -263,14 +263,11 @@ html{
     }
 
     .sidebar-active{
-        width: 20rem;
-    }
-    .main-full-scr{
-        margin-left: 10rem;
+        width: 25rem;
     }
 
-    .main-container{
-        margin-left: 20rem;
+    .main-full-scr{
+        margin-left: 0rem;
     }
 }
 
