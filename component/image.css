@@ -1,0 +1,30 @@
+.res-img-wrapper{
+    width: 100%;
+}
+
+.image-type{
+    margin: 2rem;
+}
+
+.res-img{
+    width: 100%;
+    height: auto;
+    border: 1px solid gray;
+    padding: 2rem;
+    border-radius: 3px;
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+/* Round Image  */
+
+.round-img-wrapper{
+    width: 20rem;
+    height: 20rem;
+}
+
+.round-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
