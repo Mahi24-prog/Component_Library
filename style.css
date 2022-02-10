@@ -124,6 +124,14 @@ html{
     height: 10%;
 }
 
+.sidebar-close-btn{
+    margin-left: 2rem;
+    color: white;
+    background-color: var(--secondary-color);
+    border: none;
+    cursor: pointer;
+}
+
 .sidebar .sidebar-body{
     height: 100%;
     width: 100%;

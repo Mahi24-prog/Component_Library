@@ -3,6 +3,7 @@ const components = document.querySelectorAll(".component")
 const toggleBtn = document.querySelector(".toggle-btn")
 const sidebar = document.querySelector(".sidebar")
 const mainContainer = document.querySelector(".main-container")
+const sidebarCloseBtn = document.querySelector(".sidebar-close-btn")
 
 const showComponent = (evt,id)=>{
     window.scrollTo(0, 0);
@@ -22,5 +23,11 @@ toggleBtn.addEventListener("click",()=>{
     sidebar.classList.toggle("sidebar-active");
     mainContainer.classList.toggle("main-full-scr");
 })
+
+sidebarCloseBtn.addEventListener("click",()=>{
+    sidebar.classList.toggle("sidebar-active");
+    mainContainer.classList.toggle("main-full-scr");
+})
+
 
 
