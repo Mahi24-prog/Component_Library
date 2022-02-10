@@ -6,6 +6,8 @@
 @import url("./component/image.css");
 @import url("./component/input.css");
 
+@import url("/home.css");
+
 *{
     padding: 0;
     margin: 0;

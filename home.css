@@ -1,0 +1,88 @@
+.home-navbar{
+    height: 20%;
+    display: flex;
+    background-color: var(--primary-color);
+    color: white;
+    align-items: center;
+    font-family: 'Acme', sans-serif;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.home-navbar .nav-left{
+    display: flex; 
+    align-items: center;  
+}
+
+.home-navbar .nav-logo-img{
+    height: 100%;
+    width: 5rem;
+    margin: 0 2rem 0 5rem;
+}
+
+.home-navbar .nav-right{
+    margin-left: auto;
+    margin-right: 4rem;
+    display: flex;
+}
+
+.nav-right .nav-right-logo-wrapper{
+    padding: 1rem;
+}
+
+.nav-right .nav-right-logo{
+    margin-right: 2rem;
+    cursor: pointer;
+    color: white;
+}
+
+.home-body{
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+    font-family: 'Acme', sans-serif;
+    font-family: 'El Messiri', sans-serif;
+    font-family: 'Gugi', cursive;
+}
+
+.home-body-left{
+    width: 50%;
+    min-width: 50rem;
+    flex-grow: 1;
+    padding: 0 5rem;
+}
+
+.home-body-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-grow: 1;
+    padding: 0 5rem;
+}
+
+.home-body-left .left-img{
+    height: 100%;
+    width: 100%;
+}
+
+.home-right-title{
+    margin: 4rem 0;
+}
+
+.home-right-title .logo-name{
+    color:rgb(11, 79, 124)
+}
+
+.home-right-content{
+    margin: 4rem 0;
+    line-height: 4rem;
+}
+
+.home-right-btns{
+    margin: 3rem 0;
+}
+
+a{
+    text-decoration: none;
+}
