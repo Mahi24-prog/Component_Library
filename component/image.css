@@ -1,5 +1,5 @@
 .res-img-wrapper{
-    width: 100%;
+    width: 90%;
 }
 
 .image-type{
@@ -20,7 +20,7 @@
 
 .round-img-wrapper{
     width: 20rem;
-    height: 20rem;
+    height: auto;
 }
 
 .round-img{
