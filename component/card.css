@@ -71,6 +71,51 @@
     cursor: pointer;
 }
 
+/* Simple Product Card  */
+
+.product-card{
+    width: 20rem;
+    margin: 2rem;
+    border-radius: 1em;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    flex-shrink: 0;
+}
+
+.product-card .card-img{
+    padding: 1rem;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+.product-card .card-img img{
+    height: auto;
+    width: 100%;
+    cursor: pointer;
+    z-index: 2;
+    transition: 500ms linear; 
+}
+
+.product-card .card-img .card-icon{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: white;
+    cursor: pointer;
+    background-color: var(--com-primary-darkclr);
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 1.5rem
+}
+
+.product-card .card-img img:hover{
+    transform: scale(1.1);
+}
+
+.product-card .card-body{
+    padding: 2rem;
+}
+
 /* Card With Dismiss  */
 
 .card-with-dismiss{

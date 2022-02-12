@@ -88,3 +88,13 @@
 a{
     text-decoration: none;
 }
+
+/* Links for Use  */
+
+#links-for-use{
+    margin: 0 2rem;
+}
+
+#links-for-use .title{
+    text-align: center;
+}
