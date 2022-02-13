@@ -43,12 +43,12 @@ body{
 }
 
 .md-h{
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     margin: 1.5rem 0;
 }
 
 .sm-h{
-    font-size: 2.3rem;
+    font-size: 1rem;
     margin: 1rem 0;
 }
 
@@ -254,7 +254,7 @@ html{
 
 @media(max-width:640px){
     html{
-        font-size: 45%;
+        font-size: 40%;
     }
 
     .sidebar-active{
