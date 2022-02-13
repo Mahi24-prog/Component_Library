@@ -27,17 +27,27 @@
     margin: 1rem;
 }
 
+.sm-card{
+    width: 23rem;
+    height: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.sm-card .card-footer button{
+    width: 100%;
+}
+
+
 .card-img{
    width: 100%;
+   height: auto;
    object-fit: contain;
-   padding: 1rem;
+   padding: 0.5rem;
 }
 
 .card-body, .card-product-price, .card-footer{
-    padding: 1rem;
-}
-
-.card-title{
     margin: 1rem;
 }
 
@@ -67,7 +77,7 @@
 }
 
 .card-icon{
-    margin: 1rem;
+    margin: 0.5rem;
     cursor: pointer;
 }
 
