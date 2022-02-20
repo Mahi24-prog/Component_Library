@@ -5,7 +5,7 @@
 @import url("./component/button.css");
 @import url("./component/image.css");
 @import url("./component/input.css");
-
+@import url("./component/navigation.css");
 @import url("/home.css");
 
 *{
@@ -34,6 +34,7 @@ body{
     --com-warning-darkclr:#f0ad4e;
     --com-warning-lightclr:#fff3cd;
     --com-info-darkclr:#5bc0de;
+    --white:white;
 }
 
 /* Heading Typography  */
