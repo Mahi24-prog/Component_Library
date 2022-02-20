@@ -1,0 +1,25 @@
+.rating-type{
+    margin: 2rem;
+}
+
+/* E-com Rating  */
+
+.rating-ecom{
+    background-color: var(--com-success-darkclr);
+    border-radius: 4px;
+    width: fit-content;
+}
+
+.rating-ecom span{
+    color: var(--white);
+    margin: 0;
+}
+
+/* Simple Rating  */
+.rating-simple .simple-rating-icon{
+    color: var(--com-secondary-lightclr);
+}
+
+.rating-simple .filled-icon{
+    color: var(--com-warning-darkclr);
+}

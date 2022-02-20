@@ -6,6 +6,7 @@
 @import url("./component/image.css");
 @import url("./component/input.css");
 @import url("./component/navigation.css");
+@import url("./component/rating.css");
 @import url("/home.css");
 
 *{
