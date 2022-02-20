@@ -38,6 +38,8 @@
                             class="fas fa-image sidebar-icon"></i>Image</button>
                     <button class="sidebar-btn" onclick="showComponent(event,'input-component')"><i
                             class="far fa-keyboard sidebar-icon"></i>Input</button>
+                    <button class="sidebar-btn" onclick="showComponent(event,'navbar-component')"><i
+                            class="fa-solid fa-bars sidebar-icon"></i>Navbar</button>
                 </div>
             </div>
         </div>
@@ -583,8 +585,45 @@
                 </iframe>
             </div>
 
-
-
+            <!-- Navigation Component  -->
+            <div id="navbar-component" class="component">
+                <h2 class="md-h">Navbar</h2>
+                <p class="md-text">A navigation bar is a user interface element within a webpage that contains links to
+                    other sections of the website. In most cases, the navigation bar is part of the main website
+                    template, which means it is displayed on most, if not all, pages within the website. This means that
+                    no matter what page you are viewing, you can use the navigation bar to visit other sections of the
+                    website.</p>
+                <hr class="line">
+                <div class="navbar-simple navbar-type">
+                    <nav id="navbar" class="">
+                        <div class="nav-left">
+                            <h1 class="brand-name sm-h">Jackpot UI</h1>
+                        </div>
+                        <div class="nav-mid">
+                            <div class="nav-mid-search">
+                                <input type="text" placeholder="Search...">
+                            </div>
+                        </div>
+                        <div class="nav-right flex-all-cen">
+                            <div class="badge nav-right-ele">
+                                <i class="fas fa-heart lg-text"></i>
+                                <div class="number badge-danger sm-text">4</div>
+                            </div>
+                            <div class="badge nav-right-ele">
+                                <i class="fas fa-shopping-cart lg-text"></i>
+                                <div class="number badge-danger sm-text">4</div>
+                            </div>
+                            <button class="btn-outline-primary btn nav-right-ele">Login</button>
+                            <button class="btn-primary btn nav-right-ele">Sign up</button>
+                        </div>
+                    </nav>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520id%253D%2522navbar%2522%2520class%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-left%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522brand-name%2520sm-h%2522%253EJackpot%2520UI%253C%252Fh1%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-mid%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-mid-search%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Search...%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-right%2520flex-all-cen%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520nav-right-ele%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520lg-text%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number%2520badge-danger%2520sm-text%2522%253E4%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520nav-right-ele%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520lg-text%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number%2520badge-danger%2520sm-text%2522%253E4%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-outline-primary%2520btn%2520nav-right-ele%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2520btn%2520nav-right-ele%2522%253ESign%2520up%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="line">
+            </div>
         </div>
     </div>
 

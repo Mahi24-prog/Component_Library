@@ -1,0 +1,61 @@
+#navbar{
+    height: fit-content;
+    width: 100%;
+    background-color: var(--black);
+    display: flex;
+    background-color: var(--primary-color);
+    flex-wrap: wrap;
+}
+
+.nav-left{
+    flex: 1;
+    margin-left: 4rem;
+}
+
+.nav-left .brand-name{
+    color: var(--white);
+}
+
+.nav-mid{
+    flex: 1;
+    min-width: 20rem;
+    margin:1rem;
+}
+
+.nav-mid-search input{
+    padding: 1rem;
+    width: 100%;
+    border-right: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.nav-mid .nav-mid-search{
+    display: flex;
+    border-right: none;
+}
+
+.nav-right{
+    margin-left: auto;
+    display: flex;
+    flex: 1;
+}
+
+.nav-right-ele i{
+    cursor: pointer;
+    color: white;
+} 
+
+.nav-right .badge{
+    margin: 1rem;
+}
+
+.right-ele .number{
+    background-color: var(--primary-dark-color);
+}
+
+@media(max-width:480px){
+    .nav-mid{
+        order: 3;
+    }
+}
