@@ -7,6 +7,7 @@
 @import url("./component/input.css");
 @import url("./component/navigation.css");
 @import url("./component/rating.css");
+@import url("./component/text-utilities.css");
 @import url("/home.css");
 
 *{
@@ -36,51 +37,6 @@ body{
     --com-warning-lightclr:#fff3cd;
     --com-info-darkclr:#5bc0de;
     --white:white;
-}
-
-/* Heading Typography  */
-.lg-h{
-    font-size: 3.5rem;
-    margin: 1rem 0;
-}
-
-.md-h{
-    font-size: 2.5rem;
-    margin: 1.5rem 0;
-}
-
-.sm-h{
-    font-size: 1.8rem;
-    margin: 1rem 0;
-}
-
-.xlg-text{
-    font-size: 3rem;
-    margin: 0.5rem;
-}
-
-.lg-text{
-    font-size: 2.5rem;
-    margin: 0.5rem;
-}
-
-.md-text{
-    font-size: 1.8rem;
-    margin: 1rem 0;
-}
-
-.sm-text{
-    font-size: 1.5rem;
-    margin: 0.5rem 0;
-}
-
-.xsm-text{
-    font-size: 1rem;
-    margin: 0.5rem;
-}
-
-.gray-text{
-    color: #7f8c8d;
 }
 
 html{
