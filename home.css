@@ -10,7 +10,7 @@
     font-family: 'El Messiri', sans-serif;
 }
 
-.home-navbar .nav-left{
+.home-navbar .home-nav-left{
     display: flex; 
     align-items: center;  
 }
@@ -21,17 +21,17 @@
     margin: 0 2rem 0 5rem;
 }
 
-.home-navbar .nav-right{
+.home-navbar .home-nav-right{
     margin-left: auto;
     margin-right: 4rem;
     display: flex;
 }
 
-.nav-right .nav-right-logo-wrapper{
+.home-nav-right .nav-right-logo-wrapper{
     padding: 1rem;
 }
 
-.nav-right .nav-right-logo{
+.home-nav-right .nav-right-logo{
     margin-right: 2rem;
     cursor: pointer;
     color: white;
