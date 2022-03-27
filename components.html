@@ -44,6 +44,8 @@
                         <i class="fa-solid fa-star"></i></i>Rating</button>
                     <button class="sidebar-btn" onclick="showComponent(event,'text-utilities-component')">
                         <i class="fa-solid fa-text"></i>Text Utilities</button>
+                    <button class="sidebar-btn" onclick="showComponent(event,'list-component')">
+                        <i class="fa-solid fa-list sidebar-icon"></i>Lists</button>
                 </div>
             </div>
         </div>
@@ -684,6 +686,75 @@
                     src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch2%2520class%253D%2522text-utility-text%2520lg-h%2522%253EHeading%2520text%253C%252Fh2%253E%250A%253Cspan%2520class%253D%2522text-utility-text%2520sm-text%2522%253ESmall%2520text%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522text-utility-text%2520md-text%2520gray-text%2522%253EMediumGrey%2520text%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522text-utility-text%2520sm-text%2520center-text%2522%253ESmall%2520center%2520text%253C%252Fspan%253E"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
+            </div>
+
+            <!-- List Component  -->
+            <div id="list-component" class="component">
+                <h2 class="md-h">Lists</h2>
+                <p class="md-text">Lists can be used at so many places, navigation bar, stacked notifications, article
+                    pages, etc.</p>
+                <p class="md-text"></p>
+                <hr class="line">
+                <h3 class="sm-h">Spaced (normal lists)</h3>
+                <div class="list-type" class="normal-list">
+                    <ul>
+                        <li>list item1</li>
+                        <li>list item2</li>
+                        <li>list item3</li>
+                    </ul>
+                    <ol>
+                        <li>list item1</li>
+                        <li>list item2</li>
+                        <li>list item3</li>
+                    </ol>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-type%2522%2520class%253D%2522normal-list%2522%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item3%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253Col%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item3%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fol%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="line">
+                <h3 class="sm-h">Stacked Notification List</h3>
+                <div class="list-type" id="stacked-list">
+                    <ul>
+                        <li>
+                            <div class="avatar sm-avatar">
+                                <img class="avatar-cir-img" src="https://source.unsplash.com/200x200/?boy" alt="Avatar">
+                            </div>
+                            <div class="stack-list-content">
+                                <h6>Calvin Havkin</h6>
+                                <p class="gray-text sm-text">calvinhavkin@example.com</p>
+                            </div>
+                        </li>
+                        <hr class="stack-list-hr">
+                        </hr>
+                        <li>
+                            <div class="avatar sm-avatar">
+                                <img class="avatar-cir-img" src="https://source.unsplash.com/200x200/?girl"
+                                    alt="Avatar">
+                            </div>
+                            <div class="stack-list-content">
+                                <h6>Kristan Romas</h6>
+                                <p class="gray-text sm-text">kristanromas@example.com</p>
+                            </div>
+                        </li>
+                        <hr class="stack-list-hr">
+                        </hr>
+                        <li>
+                            <div class="avatar sm-avatar">
+                                <img class="avatar-cir-img" src="https://source.unsplash.com/200x200/?man" alt="Avatar">
+                            </div>
+                            <div class="stack-list-content">
+                                <h6>Ted Fox</h6>
+                                <p class="gray-text sm-text">tedfox@example.com</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-type%2522%2520id%253D%2522stacked-list%2522%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520sm-avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-cir-img%2522%2520src%253D%2522%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stack-list-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253ECalvin%2520Havkin%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522gray-text%2520sm-text%2522%253Ecalvinhavkin%2540example.com%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%2520class%253D%2522stack-list-hr%2522%253E%253C%252Fhr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520sm-avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-cir-img%2522%2520src%253D%2522%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stack-list-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253EKristan%2520Romas%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522gray-text%2520sm-text%2522%253Ekristanromas%2540example.com%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%2520class%253D%2522stack-list-hr%2522%253E%253C%252Fhr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520sm-avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-cir-img%2522%2520src%253D%2522%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stack-list-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253ETed%2520Fox%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522gray-text%2520sm-text%2522%253Etedfox%2540example.com%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
             </div>
         </div>
     </div>
