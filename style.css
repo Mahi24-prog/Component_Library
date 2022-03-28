@@ -8,6 +8,8 @@
 @import url("./component/navigation.css");
 @import url("./component/rating.css");
 @import url("./component/text-utilities.css");
+@import url("./component/list.css");
+@import url("./component/modal.css");
 @import url("/home.css");
 
 *{

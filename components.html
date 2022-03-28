@@ -43,7 +43,11 @@
                     <button class="sidebar-btn" onclick="showComponent(event,'rating-component')">
                         <i class="fa-solid fa-star"></i></i>Rating</button>
                     <button class="sidebar-btn" onclick="showComponent(event,'text-utilities-component')">
-                        <i class="fa-solid fa-text"></i>Text Utilities</button>
+                        <i class="fa-solid fa-text-height sidebar-icon"></i>Text Utilities</button>
+                    <button class="sidebar-btn" onclick="showComponent(event,'list-component')">
+                        <i class="fa-solid fa-list sidebar-icon"></i>Lists</button>
+                    <button class="sidebar-btn" onclick="showComponent(event,'modal-component')">
+                        <i class="fa-solid fa-box sidebar-icon"></i></i>Modal</button>
                 </div>
             </div>
         </div>
@@ -685,10 +689,111 @@
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
+
+            <!-- List Component  -->
+            <div id="list-component" class="component">
+                <h2 class="md-h">Lists</h2>
+                <p class="md-text">Lists can be used at so many places, navigation bar, stacked notifications, article
+                    pages, etc.</p>
+                <p class="md-text"></p>
+                <hr class="line">
+                <h3 class="sm-h">Spaced (normal lists)</h3>
+                <div class="list-type" class="normal-list">
+                    <ul>
+                        <li>list item1</li>
+                        <li>list item2</li>
+                        <li>list item3</li>
+                    </ul>
+                    <ol>
+                        <li>list item1</li>
+                        <li>list item2</li>
+                        <li>list item3</li>
+                    </ol>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-type%2522%2520class%253D%2522normal-list%2522%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item3%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253Col%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item3%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fol%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="line">
+                <h3 class="sm-h">Stacked Notification List</h3>
+                <div class="list-type" id="stacked-list">
+                    <ul>
+                        <li>
+                            <div class="avatar sm-avatar">
+                                <img class="avatar-cir-img" src="https://source.unsplash.com/200x200/?boy" alt="Avatar">
+                            </div>
+                            <div class="stack-list-content">
+                                <h6>Calvin Havkin</h6>
+                                <p class="gray-text sm-text">calvinhavkin@example.com</p>
+                            </div>
+                        </li>
+                        <hr class="stack-list-hr">
+                        </hr>
+                        <li>
+                            <div class="avatar sm-avatar">
+                                <img class="avatar-cir-img" src="https://source.unsplash.com/200x200/?girl"
+                                    alt="Avatar">
+                            </div>
+                            <div class="stack-list-content">
+                                <h6>Kristan Romas</h6>
+                                <p class="gray-text sm-text">kristanromas@example.com</p>
+                            </div>
+                        </li>
+                        <hr class="stack-list-hr">
+                        </hr>
+                        <li>
+                            <div class="avatar sm-avatar">
+                                <img class="avatar-cir-img" src="https://source.unsplash.com/200x200/?man" alt="Avatar">
+                            </div>
+                            <div class="stack-list-content">
+                                <h6>Ted Fox</h6>
+                                <p class="gray-text sm-text">tedfox@example.com</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-type%2522%2520id%253D%2522stacked-list%2522%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520sm-avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-cir-img%2522%2520src%253D%2522%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stack-list-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253ECalvin%2520Havkin%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522gray-text%2520sm-text%2522%253Ecalvinhavkin%2540example.com%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%2520class%253D%2522stack-list-hr%2522%253E%253C%252Fhr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520sm-avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-cir-img%2522%2520src%253D%2522%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stack-list-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253EKristan%2520Romas%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522gray-text%2520sm-text%2522%253Ekristanromas%2540example.com%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%2520class%253D%2522stack-list-hr%2522%253E%253C%252Fhr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520sm-avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-cir-img%2522%2520src%253D%2522%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stack-list-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253ETed%2520Fox%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522gray-text%2520sm-text%2522%253Etedfox%2540example.com%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </div>
+            <!-- Modal Component  -->
+            <div id="modal-component" class="component">
+                <h2 class="md-h">Lists</h2>
+                <p class="md-text">Modals are positioned over everything else in the document and remove scroll from the
+                    page. It gets closed only with close button on modal pop-up.</p>
+                <p class="md-text"></p>
+                <hr class="line">
+                <h3 class="sm-h">Modal</h3>
+                <button class="btn-primary btn modal-active-btn">Show Modal</button>
+                <div class="modal-type modal-card">
+                    <i class="fa-solid fa-circle-check modal-icon lg-h"></i>
+                    <h3 class="md-h modal-title">Payment Successful</h3>
+                    <p class="sm-text gray-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                        aliquam veniam reiciendis ratione natus fugiat incidunt nulla adipisci qui esse. Perspiciatis
+                        excepturi fugiat obcaecati distinctio modi, totam laboriosam? Consequatur, dolorum.</p>
+                    <div class="modal-footer">
+                        <button class="btn-primary btn hide-modal-btn">Deactivate</button>
+                        <button class="btn-outline-light btn outline-btn hide-modal-btn">Cancle</button>
+                    </div>
+                </div>
+                <h4 class="md-text center-text">HTML Code</h4>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-primary%2520btn%2520modal-active-btn%2522%253EShow%2520Modal%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522modal-type%2520modal-card%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-circle-check%2520modal-icon%2520lg-h%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522md-h%2520modal-title%2522%253EPayment%2520Successful%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-text%2520gray-text%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Corrupti%250A%2520%2520%2520%2520%2520%2520%2520%2520aliquam%2520veniam%2520reiciendis%2520ratione%2520natus%2520fugiat%2520incidunt%2520nulla%2520adipisci%2520qui%2520esse.%2520Perspiciatis%250A%2520%2520%2520%2520%2520%2520%2520%2520excepturi%2520fugiat%2520obcaecati%2520distinctio%2520modi%252C%2520totam%2520laboriosam%253F%2520Consequatur%252C%2520dolorum.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2520btn%2520hide-modal-btn%2522%253EDeactivate%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-outline-light%2520btn%2520outline-btn%2520hide-modal-btn%2522%253ECancle%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h4 class="md-text center-text">Javascript Code</h4>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=63px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520modalCard%2520%253D%2520document.querySelector%28%2522.modal-card%2522%29%250Aconst%2520modalActiveBtn%2520%253D%2520document.querySelector%28%2522.modal-active-btn%2522%29%250Aconst%2520hideModalBtn%2520%253D%2520document.querySelectorAll%28%2522.hide-modal-btn%2522%29%250A%250AmodalActiveBtn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520modalCard.classList.add%28%2522active-modal%2522%29%253B%250A%2520%2520%2520%2520document.body.style.backgroundColor%2520%253D%2520%2522gray%2522%253B%250A%257D%29%250A%250A%250AhideModalBtn.forEach%28btn%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520btn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520modalCard.classList.remove%28%2522active-modal%2522%29%250A%2520%2520%2520%2520%2520%2520%2520%2520document.body.style.backgroundColor%2520%253D%2520%2522white%2522%253B%250A%2520%2520%2520%2520%257D%29%250A%257D%29"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
         </div>
     </div>
 
-    <script src="./sidebar.js"></script>
+    <script src="./JS/sidebar.js"></script>
+    <script src="./JS/modal.js"></script>
 </body>
 
 </html>
