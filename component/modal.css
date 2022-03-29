@@ -1,0 +1,26 @@
+.modal-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 300%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    background-color: white;
+}
+
+.modal-icon{
+    color: var(--com-info-darkclr);
+}
+
+.modal-active-btn{
+    width: fit-content;
+}
+ .active-modal{
+     display: flex;
+ }
