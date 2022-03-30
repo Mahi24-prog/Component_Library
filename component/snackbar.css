@@ -1,0 +1,30 @@
+.snackbar-type{
+    background-color: var(--com-secondary-darkclr);
+    width: fit-content;
+    padding: 0.5rem;
+    margin: 1rem;
+    color: var(--white);
+    border-radius: 0.2rem;
+    display: flex;
+}
+
+.snackbar-show-btn{
+    width: fit-content;
+}
+
+.snackbar-close-btn{
+    background-color: transparent;
+    color: var(--white);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin: 0.5rem;
+    padding: 0.2rem;
+}
+
+.snackbar-bottom{
+    position: fixed;
+    bottom: 0;
+    right: 50%;
+    display: none;
+}
