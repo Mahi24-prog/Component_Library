@@ -48,6 +48,10 @@ html{
 }
 
 /* Common class  */
+a{
+    color: var(--white);
+    text-decoration: none;
+}
 
 .line{
     margin: 2rem 0;

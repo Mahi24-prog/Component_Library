@@ -92,9 +92,13 @@ a{
 /* Links for Use  */
 
 #links-for-use{
-    margin: 0 2rem;
+    margin: 0 20%;
 }
 
 #links-for-use .title{
     text-align: center;
+}
+
+.html-link{
+    margin-bottom: -10rem;
 }
